@@ -83,7 +83,7 @@
                     <configuration>
                         <tasks>
                             <echo>Creating version file</echo>
-                            <copy file="${basedir}/target/${project.artifactId}-${project.version}/WEB-INF/classes/resources/version.properties" tofile="${basedir}/target/version.properties" />
+                            <copy file="${basedir}/target/${project.artifactId}-${project.version}/WEB-INF/classes/resources/version.properties" tofile="${basedir}/target/version.properties"/>
                         </tasks>
                     </configuration>
                 </execution>
@@ -313,7 +313,7 @@
 	<dependency>
     	<groupId>org.postgresql</groupId>
     	<artifactId>postgresql</artifactId>
-    	<version>9.4.1212</version>
+    	<version>42.2.13</version>
 	</dependency>
 
    	<dependency>
